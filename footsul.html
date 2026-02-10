@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sports Max</title>
+    <link rel="stylesheet" href="stylelit.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/football-logo.png" alt="Sports Max Logo" />
+          </a>
+        </div>
+
+        <div class="nav-links" id="navMenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Location</a></li>
+            <li><a href="footsul.html">Sports</a></li>
+          </ul>
+        </div>
+
+        <button
+          class="menu-toggle"
+          aria-label="Toggle menu"
+          onclick="toggleMenu()"
+        >
+          ☰
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <h1>Sports Max</h1>
+        <p>Your destination for football, footsal and more.</p>
+        <a href="footsul.html" class="btn">Explore Sports</a>
+      </div>
+
+      <section class="content-section">
+        <h2>Welcome</h2>
+        <p>
+          This is a sample content area over the stadium background. Add your
+          real information, images, cards, etc. here.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Sports Max. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#">Facebook</a> • <a href="#">Instagram</a> •
+        <a href="#">YouTube</a>
+      </div>
+      <p>
+        <a href="contact.html">Contact Us</a> |
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </footer>
+
+    <script>
+      function toggleMenu() {
+        document.getElementById("navMenu").classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
