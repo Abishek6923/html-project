@@ -6,43 +6,58 @@
     <title>Sports Max</title>
     <link rel="stylesheet" href="stylelit.css" />
   </head>
+
   <body>
+    <script src="footsul.js"></script>
+
+    <!-- Header Section -->
     <header class="header">
       <nav>
+        <!-- Logo -->
         <div class="logo">
           <a href="index.html">
-            <img src="images/football-logo.png" alt="Sports Max Logo" />
+            <img src="images/football player.jpg" 
+             alt="Sports Max Logo" />
           </a>
         </div>
 
+        <!-- Navigation Menu -->
         <div class="nav-links" id="navMenu">
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Location</a></li>
-            <li><a href="footsul.html">Sports</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="sports.html">Sports</a></li>
           </ul>
         </div>
 
+        <!-- Mobile Menu Button -->
         <button
           class="menu-toggle"
           aria-label="Toggle menu"
           onclick="toggleMenu()"
         >
-          ☰
+          
         </button>
       </nav>
     </header>
 
+    <!-- Main Section -->
     <main>
+      <!-- Hero Section -->
       <div class="hero">
         <h1>Sports Max</h1>
-        <p>Your destination for football, footsal and more.</p>
-        <a href="footsul.html" class="btn">Explore Sports</a>
+
+        <p>Your destination for football, futsal and more.</p>
+
+        <a href="footsal.html" class="button"> Explore Sports </a>
       </div>
 
+      <!-- Content Section -->
       <section class="content-section">
         <h2>Welcome</h2>
+
         <p>
           This is a sample content area over the stadium background. Add your
           real information, images, cards, etc. here.
@@ -50,22 +65,27 @@
       </section>
     </main>
 
+    <!-- Footer Section -->
     <footer>
       <p>© 2025 Sports Max. All rights reserved.</p>
+
+      <!-- Social Links -->
       <div class="social-links">
-        <a href="#">Facebook</a> • <a href="#">Instagram</a> •
-        <a href="#">YouTube</a>
+        <a href="#">Facebook</a><br />
+
+        <a href="#">Instagram</a><br />
+
+        <a href="https://www.youtube.com/shorts/80vAx36ym08"> YouTube </a>
       </div>
+
+      <!-- Footer Links -->
       <p>
-        <a href="contact.html">Contact Us</a> |
-        <a href="privacy.html">Privacy Policy</a>
+        <a href="contact.html"> Contact Us </a>
+
+        |
+
+        <a href="privacy.html"> Privacy Policy </a>
       </p>
     </footer>
-
-    <script>
-      function toggleMenu() {
-        document.getElementById("navMenu").classList.toggle("active");
-      }
-    </script>
   </body>
 </html>
